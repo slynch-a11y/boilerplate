@@ -1,6 +1,5 @@
 const app = require('./app');
 const db = require('../db/_db.js')
-
 const init = async() => {
 
   await db.sync();
